@@ -39,12 +39,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.calculateYamlCoverage = void 0;
 var yaml = require("js-yaml");
 var fs = require("fs");
-// calculateYamlCoverage('./testCoverage.yml');
 function calculateYamlCoverage(filePath) {
     return __awaiter(this, void 0, void 0, function () {
         var obj, pages;
         return __generator(this, function (_a) {
-            console.log(filePath);
             obj = yaml.load(fs.readFileSync(filePath, { encoding: 'utf-8' }));
             pages = JSON.parse(JSON.stringify(obj, null, 2));
             calculateCoverage(pages);
