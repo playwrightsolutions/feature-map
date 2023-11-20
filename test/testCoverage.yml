@@ -1,0 +1,126 @@
+- page: '/sign-in'
+  features:
+    header: true
+    get started: true
+    email: true
+    password: true
+    show password: true
+    remember me: true
+    forgot password: true
+    sign in: true
+- page: '/forgot-password'
+  features:
+    header: true
+    email: true
+    send reset link: true
+    sign in: true
+- page: '/dashboard'
+  features:
+    currency dropdown: false
+    filter by date: false
+    filter by merchant: true
+    gross volume: true
+    net volume: true
+    merchants processing: true
+    average transaction amount: true
+    transaction success rate: true
+    chargeback rate: true
+    transaction summary: true
+    merchant applications: true
+    tooltips: true
+- page: '/merchants'
+  features:
+    header: true
+    status filter: true
+    merchant filter:
+      by partial name: true
+      by partial email: true
+      X: true
+    merchants:
+      created at: true
+      name: true
+      application status: true
+      application progress: true
+      share: true
+      arrow: true
+    add merchant: true
+- page: '/merchants modal : add merchant account'
+  features:
+    header: true
+    business name: true
+    business owner's email: true
+    region: true
+    credit debit processing:
+      radio: true
+      select pricing: true
+    direct debit processing:
+      radio: true
+      select pricing: true
+    add merchant: true
+    X: true
+- page: '/merchants modal : share merchant application'
+  features:
+    header: true
+    email address: true
+    copy url: true
+    share via email: true
+    view previously invited users: true
+    close: true
+- page: '/merchants/{id}'
+  features:
+    header: true
+    delete merchant: true
+    general:
+      general tab: true
+      company overview: true
+      company address: true
+      business representatives: true
+      processing capabilities: true
+    processing details:
+      card processing details:
+        general: true
+        billing & payout schedule: true
+        pricing: true
+      direct debit processing details:
+        general: true
+        pricing: true
+      tooltips: true
+    payouts:
+      payouts tab: true
+      payout date: true
+      payout id: true
+      status: true
+      transaction count: true
+      net settlement: true
+      arrow: true
+    users:
+      users tab: true
+      signed up:
+        user name: true
+        role: true
+        last login: true
+        verification code: true
+        edit user: true
+        delete user: true
+      invited:
+        user name: true
+        role: true
+        last login: true
+        resend invitation: true
+        copy invitation url: true
+        delete invitation: true
+      invite user: true
+    metadata:
+      metadata tab: true
+      metadata: true
+      edit: true
+    merchant app:
+      merchant app tab: true
+      business details: false
+      contact info: false
+      processing volumes: false
+      representatives: false
+      bank account: false
+      edit: false
+      done editing: false
+      save and continue: false
