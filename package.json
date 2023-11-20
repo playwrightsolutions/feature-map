@@ -2,6 +2,7 @@
   "name": "feature-map",
   "version": "1.0.0",
   "description": "A Tool to manually track the automation coverage progress of features within a project",
+  "repository": "playwrightsolutions/feature-map",
   "main": "./build/src/index.js",
   "scripts": {
     "lint": "gts lint",
@@ -12,7 +13,13 @@
     "pretest": "npm run compile",
     "posttest": "npm run lint"
   },
-  "keywords": [],
+  "keywords": [ 
+    "feature-map",
+    "feature-coverage",
+    "automation-coverage",
+    "E2E-testing",
+    "playwrightsolutions"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
