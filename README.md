@@ -21,7 +21,7 @@ calculateYamlCoverage('./featureMap.yml');
 TypeScript
 
 ```typescript
-import {calculateYamlCoverage} from '../src';
+import {calculateYamlCoverage} from 'feature-map';
 
 calculateYamlCoverage('./test/testCoverage.yml');
 ```
